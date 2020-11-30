@@ -1,0 +1,10 @@
+Se utilizó el patron de diseño observer en su versión 
+donde queda ampliada a otros que quieran notificación de articulos por preferencias.
+
+Tenemos 2 interfaces:
+IObject que es implementada por aquellos que quieran recibir un update y tengan sus preferencias.
+ISubject que son aquellos que quieran notificar articulos segun su preferencia.
+Investigador: Es el observer concreto que recibe el update.
+SistemaDeReferencias: Es el sujeto concreto encargado de notificar a los observers de los cambios.
+
+
